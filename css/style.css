@@ -1,0 +1,49 @@
+header, #content, nav, footer {
+    text-align: center;
+}
+
+html {
+    background-color: lightblue;
+}
+
+img {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+button {
+    border-radius: 4px;
+    background-color: darkred;
+    color: yellow;
+    height: 50px;
+    width: 125px;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button:disabled{
+    background-color: grey;
+    color: black;
+}
+
+#betError{
+    background-color: red;
+    color: white;
+}
+
+#winnings{
+    background-color: lightgreen;
+    font-size: 3em;
+}
